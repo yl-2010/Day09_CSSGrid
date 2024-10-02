@@ -1,0 +1,77 @@
+body {
+    background-color: rgb(128, 128, 128);
+}
+.nav {
+    list-style-type: none;
+    background-color: gray;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+ul.nav li {
+    float: left
+}
+ul.nav li a {
+    display: block;
+    padding: 8px 16px;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+ul.nav a:hover {
+    background-color: #555;
+    color: white;
+}
+
+.grid-container {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: auto auto auto;
+}
+
+.grid-item {
+    text-align: center;
+    font-size: 30;
+    padding: 20px;
+    background-color: rgb(135, 160, 159);
+}
+
+.navmenu {
+    grid-column: 1 / span 3;
+    grid-row: 1;
+}
+
+.reed-section {
+    grid-column: 1 / span 2;
+    grid-row: 2;
+}
+
+.cameron-section {
+    grid-column: 3 / span 1;
+    grid-row: 2;
+}
+
+.whitley-section {
+    grid-column: 1 / span 1;
+    grid-row: 3;
+}
+
+.alex-section {
+    grid-column: 2 / span 1;
+    grid-row: 3;
+}
+
+.xinyuan-section {
+    grid-column: 3 / span 1;
+    grid-row: 3;
+}
+
+.nathan-section {
+    grid-column: 1 / span 1;
+    grid-row: 4;
+}
+
+.tarek-section {
+    grid-column: 2 / span 2;
+    grid-row: 4;
+}
